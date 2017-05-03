@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+ 
+p {
+  margin-bottom: 20px;
+}
+header {
+  background:#08002b;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+nav {
+  float: left;
+}
+ 
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+ 
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  position:
+}
+ 
+nav ul li a {
+  display: block;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+ 
+nav ul li:hover {
+  background: #0c00ff;
+}
+CSS
+
+.article {
+  padding-top: 80px;
+}
+1
+2
+3
+.article {
+  color:
+  padding-top: 80px;
+}
+article{
+  color:#009e98;
+  font-size:25px;
+  margin-left: 20px;
+  margin-right:20px;
+}
+#video_background{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background: url(seminario.mp4) no-repeat;
+  background-size: cover;
+}
+
+video{
+  display: black;
+}
+
+ul#galeria { list-style: none; }
+ul#galeria li { float:left;  }
+ul#galeria li img {
+  width: 370px;
+  margin: 0 auto;
+  border: 5px solid #000cff;
+  opacity: 0.7; 
+  margin-right:30; 
+  margin-left:30;
+}
+
+ul#galeria img:hover {
+  opacity: 1;
+  z-index:500;
+  -moz-transform:scale(2);                   
+  -webkit-transform:scale(2);                
+  -o-transform:scale(2); }                   
+ul#galeria li:nth-child(3n) { float: none; 
+
+}

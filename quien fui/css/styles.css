@@ -1,0 +1,90 @@
+ *{
+  padding: 0;
+  margin: 0;
+}
+ 
+p {
+  margin-bottom: 20px;
+}
+header {
+  background:#005e56;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+nav {
+  float: left;
+}
+ 
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+ 
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  position:
+}
+ 
+nav ul li a {
+  display: block;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+ 
+nav ul li:hover {
+  background: #00b5a5;
+}
+
+
+p{
+  font-family:;
+  color:#ffffff;
+  font-size:30px;
+  padding-left:30px;
+  padding-right:30px;
+
+}
+div.gallery {
+    margin: 10px;
+    border: 10px solid #000000;
+    float: left;
+    width: 260px;
+    display:80;
+    margin:80px;
+
+}
+
+div.gallery:hover {
+    border: 10px solid #8c0000;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 300px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+#video_background{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background: url(seminario.mp4) no-repeat;
+  background-size: cover;
+}
+
+video{
+  display: black;
+}
